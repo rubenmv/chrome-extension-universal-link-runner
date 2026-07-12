@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Universal Link Runner",
+  "version": "1.2",
+  "description": "Lanza comandos locales (ytd o gdl) usando la URL de la pestaña actual.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_title": "Elegir método de descarga",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "options_page": "options.html"
+} 

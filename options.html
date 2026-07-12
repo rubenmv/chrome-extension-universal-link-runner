@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { font-family: sans-serif; padding: 15px; width: 360px; }
+    input { width: 100%; padding: 6px; margin: 8px 0; box-sizing: border-box; }
+    button { padding: 6px 12px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    .note { font-size: 11px; color: #555; margin-top: 2px; margin-bottom: 12px; }
+  </style>
+</head>
+<body>
+  <h3>Configurar Comandos Locales</h3>
+  
+  <label for="cmd">Plantilla para <b>yt-dl</b>:</label>
+  <input type="text" id="cmd" placeholder="ej: ytd %url%">
+  <div class="note">Usa <b>%url%</b> para insertar el enlace.</div>
+
+  <label for="gdl">Plantilla para <b>gallery-dl</b>:</label>
+  <input type="text" id="gdl" placeholder="ej: gdl %url%">
+  <div class="note">Usa <b>%url%</b> para insertar el enlace.</div>
+  
+  <button id="save">Guardar configuración</button>
+
+  <script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+Privacy Policy for Universal Link Runner
+Last Updated: July 12, 2026
+
+1. Introduction
+This Privacy Policy governs the use of the Universal Link Runner Chrome extension ("Extension"). We prioritize your privacy and transparency. This document confirms that the Extension does not collect, store, or transmit any user data to external servers or third parties. 
+
+2. Data Collection and Usage
+The Extension operates entirely locally within your browser. Its sole function is to:
+
+Access the active tab's URL at the specific moment you invoke the Extension.
+Immediately pass this URL to a registered URI scheme handler on your host computer. 
+We explicitly state:
+
+No Data Collection: We do not collect, log, or store browsing history, URLs, IP addresses, or any personally identifiable information (PII). 
+No Data Transmission: No data is transmitted to our servers, analytics services, or any third party. The URL is passed directly from the browser to your local operating system's handler.
+No Cookies: The Extension does not use cookies or similar tracking technologies. 
+
+3. Permissions
+The Extension requests the <all_urls> or activeTab permission solely to read the current URL required to execute the URI scheme. This access is transient and occurs only when you actively click the Extension icon. The data is not retained after the action is completed.
+
+4. Third-Party Services
+The Extension does not integrate with any third-party services, analytics platforms, or advertising networks. Consequently, no user data is shared with external entities. 
+
+5. Data Security
+Since no data is collected or stored, there is no risk of data breaches or unauthorized access to user information via our Extension. The URL handling process relies on the security of your local operating system and the associated application. 
+
+6. Children's Privacy
+As we do not collect any data, we do not knowingly collect information from children under the age of 13 or any other age group. 
+
+7. Changes to This Policy
+We may update this Privacy Policy periodically. Any changes will be reflected on this page with an updated "Last Updated" date. We encourage users to review this policy regularly. 

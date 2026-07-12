@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 12px;
+      width: 200px;
+      background-color: #f8f9fa;
+    }
+    
+    /* Contenedor para alinear los botones de yt-dl en paralelo */
+    .flex-container {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 6px;
+    }
+    
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 10px 8px;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 12px;
+      text-align: center;
+      box-sizing: border-box;
+      transition: background-color 0.15s ease, transform 0.1s ease;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    
+    .btn:active {
+      transform: scale(0.98);
+    }
+    
+    /* Botones de YouTube (Rojos) */
+    .ytd-btn { 
+      background-color: #e50914; 
+    } 
+    .ytd-btn:hover { 
+      background-color: #b80710; 
+    }
+    
+    /* Botón de Gallery-dl (Verde) */
+    #gdl-btn { 
+      background-color: #1f7a38; 
+    } 
+    #gdl-btn:hover { 
+      background-color: #165627; 
+    }
+    
+    /* Etiquetas pequeñas de resolución */
+    .res-text {
+      display: block;
+      font-size: 10px;
+      font-weight: normal;
+      opacity: 0.85;
+      margin-top: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="flex-container">
+    <button id="ytd-1080-btn" class="btn ytd-btn">
+      yt-dl
+      <span class="res-text">1080p</span>
+    </button>
+    <button id="ytd-2160-btn" class="btn ytd-btn">
+      yt-dl
+      <span class="res-text">4K</span>
+    </button>
+  </div>
+
+  <button id="gdl-btn" class="btn">gallery-dl</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

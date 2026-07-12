@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\runner]
+@="URL:Universal Command Runner Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\runner\shell]
+
+[HKEY_CLASSES_ROOT\runner\shell\open]
+
+[HKEY_CLASSES_ROOT\runner\shell\open\command]
+@="powershell.exe -ExecutionPolicy Bypass -File \"C:\\Scripts\\universal-runner.ps1\" \"%1\""
